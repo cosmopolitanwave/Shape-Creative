@@ -2,29 +2,26 @@
 
 
 body {
-  max-width: 50%;
+  width: 90%;
+  max-width: 50rem;
   min-width: 30em;
-  margin: auto;
-  margin-top: 0;
-  padding: 2%;
+  margin: 0 auto;
+  padding: 0 2%;
 
-  
+  /* display: grid;
+  grid-gap: 1em;
+  grid-template-rows: auto 1fr auto; */
+
   font-family: sans-serif;
   font-weight: 300;
   line-height: 1.5em;
-
-  display: grid;
-  grid-gap: 1em;
-  grid-template-rows: auto 1fr auto;
-
-  
 }
+
 
 h1 {
   font-size: 4rem;
   font-weight: 400;
   line-height: 1.15em;
-  margin-top: 2em;
 
 }
 
